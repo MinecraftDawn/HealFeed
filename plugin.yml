@@ -1,0 +1,15 @@
+name: HealFeed
+main: HealFeed.main
+version: 0.1
+commands:
+  heal:
+    description: "補血量"
+  feed:
+    description: "補飽食度"
+permissions:
+  heal:
+    description: "補血量權限"
+    default: op
+  feed:
+    description: "補飽食度權限"
+    default: op
